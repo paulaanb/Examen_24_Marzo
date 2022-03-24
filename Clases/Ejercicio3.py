@@ -15,4 +15,16 @@ class cuenta:
         self.estado = estado
         self.saldo = saldo
         self.fechadeapertura = fecha de apertura
-        
+
+#Ahora empezamos a crear el metodo para retirar el dinero y para ingresarlo.
+def setRetirar(self,s):
+    if self.saldo - s > 0:
+        self.saldo - s 
+def setIngresara(self,s):
+    self.saldo = self.saldo + s
+
+
+
+
+
+
