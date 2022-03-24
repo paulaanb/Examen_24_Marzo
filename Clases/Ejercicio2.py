@@ -17,3 +17,9 @@ def getespecie(self):
 
 def mostrarAnimal(self):
     print("\nNombre: " + self.getnombre() + "\nEspecie: " + self.getespecie())
+
+#Establecemos las variables
+nombre = raw_input("Por favor, introduzca el tipo de animal: ")
+especie = raw_input("Por favor, introduzca la especie del animal: ")
+paula = Animal(nombre, especie)
+paula.mostrarAnimal()
