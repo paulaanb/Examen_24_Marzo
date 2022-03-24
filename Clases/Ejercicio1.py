@@ -10,3 +10,19 @@ class libro:
         self.ISBN() = ISBN
         self.edicion() = edicion
     
+    #Definimos los metodos para acceder a la clase libro:
+    def getnombre(self):
+        return self.nombre
+    def getautor(self):
+        return self.autor
+    def getgenero(self):
+        return self.genero
+    def getañodepublicacion(self):
+        return self.añopublicacion
+    def gettitulo(self):
+        return self.titulo
+    def getISBN(self):
+        return self.ISBN
+    def getedicion(self):
+        return self.edicion
+        
