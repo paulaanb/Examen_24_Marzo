@@ -23,7 +23,17 @@ def setRetirar(self,s):
 def setIngresara(self,s):
     self.saldo = self.saldo + s
 
-
+#Creamos los metodos para accedor a la clase cuenta
+def getcuenta(self):
+    return self.cuenta
+def getpropietario(self):
+    return self.propietario
+def getestado(self):
+    return self.estado
+def getsaldo(self):
+    return self.estado
+def getfechadeapertura(self):
+    return self.fechadeapertura
 
 
 
