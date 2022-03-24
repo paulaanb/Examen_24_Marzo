@@ -9,4 +9,10 @@ class Animal:
     def __init__(self, nombre, especie):
         self.nombre = nombre
         self.especie = especie
+#Definimos los comandos necesarios
+def getnombre(self):
+    return self.nombre
+def getespecie(self):
+    return self.especie
+
 
