@@ -25,4 +25,7 @@ class libro:
         return self.ISBN
     def getedicion(self):
         return self.edicion
+
+    def mostrarlibro(self):
+        print("\nNombre: " + str(self.nombre()) + "\nAutor: " + self.autor() + "\nGenero: " + self.genero() + "\nAño de publicacion: " + str(self.añodepublicacion()) + "\nTitulo del libro: " + self.titulo() + "\nISBN: " + str(self.ISBN()) + "\nNumero de edicion: " + str(self.edicion()))
         
