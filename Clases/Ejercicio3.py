@@ -31,7 +31,7 @@ def getpropietario(self):
 def getestado(self):
     return self.estado
 def getsaldo(self):
-    return self.estado
+    return self.saldo
 def getfechadeapertura(self):
     return self.fechadeapertura
 
@@ -39,7 +39,13 @@ def getfechadeapertura(self):
 def mostrarcuenta(self):
     print("\nCuenta: " + self.getcuenta() + "\nPropietario: " + self.getpropietario() + "\nEstado: " + str(self.getestado()) + "\nSaldo: " + str(self.getsaldo()) + "\nFecha de apertura: " + str(self.getfechadeapertura()))
 
-
+#Establecemos las variables:
+cuenta = raw_input("Por favor, ingresa el numero de cuenta asociada: ")
+propietario = raw_input("Por favor, ingresa el nombre del propetario: ")
+saldo = raw_input("Por favor, ingresa el saldo inicial de la cuenta: ")
+fechadeapertura =raw_input("Por favor, ingresa la fecha de apertura de la cuenta del banco: ")
+paula = cuenta(cuenta, propetario, saldo, fechadeapertura)
+paula.mostrarcuenta()
 
 
 
