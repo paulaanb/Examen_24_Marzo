@@ -35,6 +35,11 @@ def getsaldo(self):
 def getfechadeapertura(self):
     return self.fechadeapertura
 
+#Definimos mostrar cuenta
+def mostrarcuenta(self):
+    print("\nCuenta: " + self.getcuenta() + "\nPropietario: " + self.getpropietario() + "\nEstado: " + str(self.getestado()) + "\nSaldo: " + str(self.getsaldo()) + "\nFecha de apertura: " + str(self.getfechadeapertura()))
+
+
 
 
 
