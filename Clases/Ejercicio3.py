@@ -9,4 +9,10 @@
 #Definimos la clase a utilizar
 
 class cuenta:
-    def __init__(self, cuenta, propietario, estado, saldo):
+    def __init__(self, cuenta, propietario, estado, saldo, fechadeapertura):
+        self.cuenta = cuenta
+        self.propietario = propietario
+        self.estado = estado
+        self.saldo = saldo
+        self.fechadeapertura = fecha de apertura
+        
