@@ -48,4 +48,11 @@ paula = cuenta(cuenta, propetario, saldo, fechadeapertura)
 paula.mostrarcuenta()
 
 
+#Ingreso de datos para la segunda parte del ejercicio
+cantidad = int(input ("Ingrese la cantidad que desea retirar: ") )
+#Operacion realizada
+incremento = cantidad * 0.05
+importetotal = cantidad * 1.05
+#Ejecucion del codigo
+print("Importe del total del dinero retirado: ", importetotal)
 
