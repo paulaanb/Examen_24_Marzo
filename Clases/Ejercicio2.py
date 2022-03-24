@@ -15,4 +15,5 @@ def getnombre(self):
 def getespecie(self):
     return self.especie
 
-
+def mostrarAnimal(self):
+    print("\nNombre: " + self.getnombre() + "\nEspecie: " + self.getespecie())
